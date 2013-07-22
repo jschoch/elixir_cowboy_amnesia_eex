@@ -8,7 +8,8 @@ defmodule ElixirHelloWorld do
                  {:_, [
                  				{"/", ElixirHelloWorld.TopPageHandler, []},
                  				{"/foo",ElixirHelloWorld.FooPageHandler, []},		
-                 				{"/tmpl",ElixirHelloWorld.TemplatePageHandler, []}
+                 				{"/tmpl",ElixirHelloWorld.TemplatePageHandler, []},
+                 				{"/trns",ElixirHelloWorld.TransactionTemplatePageHandler,[]}
                  			]}
                ])
     {:ok, _} = :cowboy.start_http(:http, 100,
