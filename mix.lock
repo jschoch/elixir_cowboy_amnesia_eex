@@ -1,0 +1,5 @@
+[ "amnesia": {:git, "git://github.com/meh/amnesia.git", "e3ff3502d156820b961a8e394c55ea688bd052e9", []},
+  "cowboy": {:git, "git://github.com/extend/cowboy.git", "ddefa33a38e045d1359149f911359343105a0ce0", []},
+  "datastructures": {:git, "git://github.com/meh/elixir-datastructures.git", "f680f70bebfa31e4e2505c776ad6f427cd6d5c1e", []},
+  "exquisite": {:git, "https://github.com/meh/exquisite.git", "bffbb507c82f44239c30b666eefaee0f6cbb7bfd", []},
+  "ranch": {:git, "git://github.com/extend/ranch.git", "4f70a16bbe08e446e8fec248ca345d5f8e7df038", [{:ref, "0.8.4"}]} ]
