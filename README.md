@@ -1,15 +1,12 @@
 Elixir Hello World
 ==================
 
-This is an example of running Cowboy with [Elixir](http://elixir-lang.org).
+This is an example of running Cowboy with [Elixir](http://elixir-lang.org) and 
+[Amnesia](https://github.com/meh/amnesia) and [EEx](http://elixir-lang.org/docs/master/EEx.html)
 
 You need Elixir installed
 ([instructions here](http://elixir-lang.org/getting_started/1.html))
-to run this example. After installing Elixir, you should have both
-`elixir` and `mix` executables available.
 
-You also need [rebar](https://github.com/rebar/rebar) in your PATH
-to compile dependencies.
 
 Then type the following command:
 
