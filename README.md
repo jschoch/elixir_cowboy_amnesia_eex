@@ -78,7 +78,7 @@ content-length: 128
 ## also there is an Amnesia transaciton test
 
 quick micro bench on m1.medium
-
+```
 ab -c 10 -n 10000 http://ec2-xyz.compute-1.amazonaws.com:8001/trns
 This is ApacheBench, Version 2.3 <$Revision: 655654 $>
 Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
@@ -136,3 +136,4 @@ Percentage of the requests served within a certain time (ms)
   99%     50
  100%     87 (longest request)
 
+```
