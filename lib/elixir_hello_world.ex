@@ -9,6 +9,7 @@ defmodule ElixirHelloWorld do
                  				{"/", ElixirHelloWorld.TopPageHandler, []},
                  				{"/foo",ElixirHelloWorld.FooPageHandler, []},		
                  				{"/tmpl",ElixirHelloWorld.TemplatePageHandler, []},
+                        {"/qs_echo",EHW.EchoHandler, []},
                  				{"/trns",ElixirHelloWorld.TransactionTemplatePageHandler,[]}
                  			]}
                ])
