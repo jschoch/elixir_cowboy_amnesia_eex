@@ -10,6 +10,8 @@ defmodule EHW.EchoHandler do
     {thing, req} = R.qs_val("foo",req)
     #{foo, req} = R.
     params = Dynamo.Connection.QueryParser.parse(query_string)
+    {path,req} = R.path(req)
+    {path_info,req} = R.path_info(req)
     response = """
       <html><body><p>
       test urls = [/qs_echo?foo[bar]=1, /qs_echo?foo=1] </br>
@@ -18,6 +20,8 @@ defmodule EHW.EchoHandler do
       ?foo=1: #{thing}</br>
       params: #{inspect params}</br>
       foo[bar] from params #{params["foo"]["bar"]}</br>
+      path: #{inspect path}</br>
+      path_info: #{inspect path_info}</br>
       Request: #{inspect req}
       </p></html></body>
 """

@@ -4,6 +4,7 @@ defmodule ElixirHelloWorld.Mixfile do
   def project do
     [ app: :elixir_hello_world,
       version: "0.0.1",
+      elixirc_paths: ["lib","config"],
       deps: deps ]
   end
 
